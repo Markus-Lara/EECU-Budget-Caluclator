@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <img src="Ecculogo.png" alt="Image">
+        </ul>
+    
+    </nav>
+    <h1>Wise Up Budget Calculator</h1>
+    <div class="Buttons">
+        <button class="btn btn-back" id="btn-back" onclick="changeStep()">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button">4</button>
+        <button class="button">5</button>
+    </div>
+    <h2>Step 1: Career</h2>
+    <div class="dropdown">
+        <select id="career" name="career">
+            <option value="student">Student</option>
+            <option value="employed">Employed</option>
+            <option value="self-employed">Self-employed</option>
+            <option value="unemployed">Unemployed</option>
+        </select>
+    </div>
+    <div class="input-field">
+        <label for="income">Monthly Income:</label>
+        <input type="number" id="income" name="income">
+    </div>
+    <button>
+        continue
+    </button>
+
+    <script src="functionality.js"></script>
+
+</html>
