@@ -21,19 +21,38 @@
       height: 50px;
     }
 
+    #description {
+      display: flex;
+      flex-direction: column;
+
+    }
+
     /* PAGE TITLE */
     h1 {
       color: #003366;
       font-size: 2rem;
       padding: 28px 40px 0;
+      margin-left: -25px;
+      text-shadow:0 0 2px rgba(0, 0, 0, 0.8);
     }
+
+     h2 {
+      color: #003366;
+      margin-left: -28pc;
+     }
+
+     .net {
+      font-family: "Open Sans" sans-serif;
+      font-size: 20px;
+
+     }
 
     /* STEP INDICATOR */
     #step-list {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 0;
+      gap: 62px;
       margin: 32px auto 0;
       max-width: 500px;
       position: relative;
@@ -62,8 +81,8 @@
     }
 
     .circle {
-      width: 36px;
-      height: 36px;
+      width: 63px;
+      height: 63px;
       background: white;
       border: 2px solid #a8cff0;
       border-radius: 50%;
@@ -79,7 +98,7 @@
     .step.active .circle {
       background: #4DAADD;
       border-color: #4DAADD;
-      color: white;
+      color: rgb(255, 255, 255);
     }
 
     /* MAIN CONTENT */
@@ -229,12 +248,15 @@
       background-color: var(--btn-color);
       text-decoration: none;
       text-align: center;
-      border-radius: 20%;
-      width: 22vw;
-      height: 3.5vh;
+      border-radius: 50px;
+      font-size: 24px;
+      width: 456px;
+      height: 51px;
       display: flex;
       justify-content: center;
       align-items: center;
+      color: #fff;
+      margin-top: 170px;
     }
     
     #continue-bttn:visited {

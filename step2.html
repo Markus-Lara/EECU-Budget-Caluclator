@@ -14,8 +14,8 @@
       <h1>Wise-Up Budget Calculator</h1>
     
       <div id="step-list">
-        <div class="step active"><a class="circle">1</a></div>
-        <div class="step"><a class="circle">2</a></div>
+        <div class="step active"><a class="circle"><img src="images/image.png"></a></div><!--make sure to scale the image. It's way too big.-->
+        <div class="step active"><a class="circle">2</a></div>
         <div class="step"><a class="circle">3</a></div>
         <div class="step"><a class="circle">4</a></div>
         <div class="step"><a class="circle">5</a></div>
@@ -24,6 +24,9 @@
       <main id="step-2">
        <section id="description">
         <h2 id="h2-step2"> Step 2: Taxes</h2>
+        <P class=net>Net Monthly Income: 
+          <placeholder></placeholder><!--Make to sure add a class, or id connecting to JS to make your custom NMI visible-->
+        </P>
        </section>
         <table>
             <thead>
@@ -70,7 +73,7 @@
           <div id="Annual-income">
             <p id="income">Annual Net Income: <b>$0</b></p>
           </div>
-          <a id="continue-bttn"href="step3.html"><p>Continue to Expenses</p></a>
+          <a id="continue-bttn"href="step3.html"><p>Continue to Budget Expenses</p></a>
       </main>
  </body>
  </html>
