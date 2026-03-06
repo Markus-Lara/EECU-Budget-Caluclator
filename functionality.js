@@ -23,6 +23,17 @@ function init() {
 
 
 
+document.getElementById("career").addEventListener("change", function() {
+    const num = this.value;
+    const job = document.getElementById("income-amount");
+    job.textContent = num;
+    console.log(job);
+    return;
+});
+
+
+
+
 
 
 document.addEventListener("DOMContentLoaded", init);
