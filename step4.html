@@ -14,11 +14,11 @@
      <h1>Wise-Up Budget Calculator</h1>
    
      <div id="step-list">
-       <div class="step active"><a class="circle"><img src="images/image.png"></a></div>
-       <div class="step active"><a class="circle"><img src="images/image.png"></a></div>
-       <div class="step active"><a class="circle"><img src="images/image.png"></a></div>
-       <div class="step active"><a class="circle">4</a></div>
-       <div class="step"><a class="circle">5</a></div>
+      <div class="step active"><p class="circle"><img src="images/image.png"></p></div>
+      <div class="step active"><p class="circle"><img src="images/image.png"></p></div>
+      <div class="step active"><p class="circle"><img src="images/image.png"></p></div>
+      <div class="step active"><p class="circle">4</p></div>
+      <div class="step"><p class="circle">5</p></div>
      </div>
 
      <main id="steps">
@@ -31,58 +31,34 @@
                <th>Category</th>
                <th>Estimated</th>
                <th>Your Amount</th>
-               <th>Notes</th>
              </tr>
            </thead>
            <tbody>
              <tr>
-               <td>Housing</td>
-               <td>$0</td>
-               <td>0</td>
-               <td></td>
-             </tr>
-             <tr>
-               <td>Food</td>
-               <td>$0</td>
-               <td>0</td>
-               <td></td>
-             </tr>
-             <tr>
-               <td>Transportation</td>
-               <td>$0</td>
-               <td>0</td>
-               <td></td>
-             </tr>
-             <tr>
                <td>Student Loan</td>
-               <td>$0</td>
-               <td>0</td>
-               <td></td>
+               <td>$<span id='student-est'>0</span></td>
+               <td><span id='student-ammount'>0</span></td>
              </tr>
              <tr>
-               <td>Phone/Internet</td>
-               <td>$0</td>
-               <td>0</td>
-               <td></td>
+               <td>Auto Loan</td>
+               <td>$<span id='auto-est'>0</span></td>
+               <td><span id='auto-ammount'>0</span></td>
              </tr>
              <tr>
-              <td>Entertainment</td>
-              <td>$0</td>
-              <td>0</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Clothing/Personal</td>
-              <td>$0</td>
-              <td>0</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Savings</td>
-              <td>$0</td>
-              <td>0</td>
-              <td></td>
-            </tr>
+               <td>Credit Card Min</td>
+               <td>$<span id='cred-card-est'>0</span></td>
+               <td><span id='cred-card-ammount'>0</span></td>
+             </tr>
+             <tr>
+               <td>Personal Loan</td>
+               <td>$<span id='perosnal-est'>0</span></td>
+               <td><span id='perosnal-ammount'>0</span></td>
+             </tr>
+             <tr>
+               <td>Other Debt</td>
+               <td>$<span id='other-est'>0</span></td>
+               <td><span id='other-ammount'>0</span></td>
+             </tr>
            </tbody>
          </table>
          <div id="Annual-income-1">
@@ -91,6 +67,7 @@
          <div id="Annual-income-1">
           <p id="Remaining">Remaining:</p>
         </div>
+      </main>
      <a id="continue-bttn"href="step5.html"><p>Continue to Budget Summary</p></a>
 </body>
 </html>
