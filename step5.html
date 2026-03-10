@@ -14,12 +14,78 @@
      <h1>Wise-Up Budget Calculator</h1>
    
      <div id="step-list">
-      <div class="step active"><p class="circle"><img src="images/image.png"></p></div>
+      <a href="step4.html">
+        <img src="/images/Vector.png" id="vector" alt="vector">
+    </a>
+          <div class="step active"><p class="circle"><img src="images/image.png"></p></div>
       <div class="step active"><p class="circle"><img src="images/image.png"></p></div>
       <div class="step active"><p class="circle"><img src="images/image.png"></p></div>
       <div class="step active"><p class="circle"><img src="images/image.png"></p></div>
       <div class="step active"><p class="circle">5</p></div>
       </div>
+      
+      <main id="steps">
+        <section id="description">
+         <h2 id="h2-steps"> Step 5: Budget Summary</h2>
+        </section>
+         <table>
+             <thead>
+               <tr>
+                <!--Lowk copied from others so tags are off
+                please fix-->
+                 <th>Category</th>
+                 <th>Annual Amount</th>
+                 <th>Monthly Amount</th>
+                 <th>% of Net</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>Gross Income</td>
+                 <td>$<span id='Annual-amt'>0</span></td>
+                 <td><span id='monthly-amt'>0</span></td>
+                 <td><span id='net-amt'>0</span></td>
+               </tr>
+               <tr>
+                 <td>Taxes</td>
+                 <td>$<span id='auto-est'>0</span></td>
+                 <td><span id='auto-ammount'>0</span></td>
+                 <td><span id='other-ammount'>0</span></td>
+               </tr>
+               <tr>
+                 <td>Net Income</td>
+                 <td>$<span id='cred-card-est'>0</span></td>
+                 <td><span id='cred-card-ammount'>0</span></td>
+                 <td><span id='other-ammount'>0</span></td>
+               </tr>
+               <tr>
+                 <td>Expenses</td>
+                 <td>$<span id='perosnal-est'>0</span></td>
+                 <td><span id='perosnal-ammount'>0</span></td>
+                 <td><span id='other-ammount'>0</span></td>
+               </tr>
+               <tr>
+                 <td>Debt</td>
+                 <td>$<span id='other-est'>0</span></td>
+                 <td><span id='other-ammount'>0</span></td>
+                 <td><span id='other-ammount'>0</span></td>
+               </tr>
+               <tr>
+                <td>Savings Left</td>
+                <td>$<span id='other-est'>0</span></td>
+                <td><span id='other-ammount'>0</span></td>
+                <td><span id='other-ammount'>0</span></td>
+              </tr>
+             </tbody>
+           </table>
+           <div id="Annual-income-1">
+             <p id="Total-spent">Total Spent:</p>
+           </div>
+           <div id="Annual-income-1">
+            <p id="Remaining">Remaining:</p>
+          </div>
+        </main>
+
      <a id="continue-bttn" href="index.html"><p>Restart</p></a>
 </body>
 </html>

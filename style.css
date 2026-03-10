@@ -276,3 +276,7 @@
       font-size: large;
       width: 500px;
     }
+
+    #vector {
+      margin-right: -50px;
+    }
