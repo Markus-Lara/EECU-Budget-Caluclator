@@ -23,3 +23,4 @@ careerSelect.addEventListener("change", function () { // for the salaries
     incomeDisplay.textContent = "$ " + salary.toLocaleString();
 
 });
+
