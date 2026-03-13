@@ -81,6 +81,7 @@
       flex: 1;
       display: flex;
       justify-content: center;
+      align-items: center;
     }
 
     .circle {
@@ -219,8 +220,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      
-
     }
 
     th {
@@ -250,6 +249,7 @@
       border: 2px solid #2b2b2b;
       padding-left:2%;
       padding:.7%;
+      height: 45px;
     }
 
     #Annual-income {
@@ -279,12 +279,6 @@
       color: white;
     }
 
-    #Annual-income-1 {
-      font-size: large;
-      width: 500px;
-      margin-right: 90vh;
-    }
-
     #vector {
      margin-left: -30vh;
     }
@@ -298,4 +292,34 @@
 
     b {
       color: green;
+    }
+
+    #Total-spent {
+      border-bottom: 2px solid black;
+      margin-top: 20px;
+      margin-right: 120vh;
+      display: inline-block;
+      padding-bottom: 5px;
+      font-size: 25px;
+    }
+
+    #Remaining {
+      margin-top: 10px;
+      margin-right: 120vh;
+      font-size: 25px;
+      color: #57E257; 
+    }
+
+    #check-mark {
+      width: 25px;
+    }
+
+    #steps-5 {
+      margin-left: 100px;
+    }
+
+    #Table-5 {
+      width: 35%;
+      margin-right: 90vh;
+
     }
