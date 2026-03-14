@@ -75,6 +75,18 @@
       z-index: 0;
     }
 
+    #step-list::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      width: 80%;
+      height: 3px;
+      background: #4DAADD;
+      transform: translateY(-50%);
+      z-index: 0;
+    }
+
     .step {
       position: relative;
       z-index: 1;
@@ -249,7 +261,7 @@
       border: 2px solid #2b2b2b;
       padding-left:2%;
       padding:.7%;
-      height: 45px;
+      height: 50px;
     }
 
     #Annual-income {
@@ -319,7 +331,35 @@
     }
 
     #Table-5 {
-      width: 35%;
-      margin-right: 90vh;
+      flex: 0 0 75%;
+    }
 
+    /* Pie Chart Stylization */
+    .summary-layout {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      gap: 20rem;
+    }
+
+    .charts {
+       flex: 0 0 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pie-chart {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      border: 1px solid;
+      background-image:
+        conic-gradient(
+          #66CCFF 0% 40%,
+          #8AFF98 50% 100%,
+          #f5f7fa 40% 50%
+        );
     }
